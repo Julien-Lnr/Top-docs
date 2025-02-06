@@ -1,17 +1,16 @@
-# Welcome to MkDocs
+# Documentation My_Top
 
-For full documentation visit [mkdocs.org](httmkdocsps://www.mkdocs.org).
+Bienvenue sur la documentation du projet My_Top
 
-## Commands
+Il s'agit du projet de 1ère année à Epitech
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+Il fut réalisé seul
 
-## Project layout
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+L'objectif est de réaliser un jeu où des personnages doivent évoluer à l'aide de ressources et de coopération.
+
+Il est composé en 3 parties :
+
+- Un serveur gérant la partie
+- Des IA qui occupent le rôle de la prise de décision de chaque personnage
+- Une interface utilisatrice permettant d'observer le tout
