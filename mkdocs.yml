@@ -1,7 +1,35 @@
-site_name: Mon super site trop bien
+site_name: Documentation My_Top
 theme:
     name: material
+    features:
+    - navigation.tabs
+    - navigation.sections
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+    - content.code.annotation
+    - content.code.copy
+    language: fr
+    palette:
+    - scheme: default
+      toggle:
+        icon: material/moon-waxing-crescent
+        name: Switch to dark mode
+      primary: light blue
+      accent: blue
+    - scheme: slate
+      toggle:
+        icon: material/white-balance-sunny
+        name: Switch to light mode
+      primary: light blue
+      accent: lime
+
+plugins:
+  - search
+
 extra_css:
   - stylesheets/extra.css
 extra_javascript:
   - javascripts/extra.js
+nav:
+  - "Home": index.md
