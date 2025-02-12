@@ -33,3 +33,5 @@ extra_javascript:
   - javascripts/extra.js
 nav:
   - "Home": index.md
+  - "Header": header.md
+  - "Footer": footer.md
